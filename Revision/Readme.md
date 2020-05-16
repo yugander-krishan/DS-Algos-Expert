@@ -1,0 +1,3 @@
+- Basic Calculator 2
+- Simlify path - https://leetcode.com/problems/simplify-path/
+- Flatten a docubly linked list
