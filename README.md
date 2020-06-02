@@ -32,11 +32,12 @@ PRESTO_PIPELINE_TYPE=<PIPELINE_NAME> brazil-build visualize
 ```
 where **PIPELINE_NAME** is `presto-code-deploy` OR `presto-mainline`
 
-Once you have tested the pipeline you can start synthesizing your resources by using LPT's tasks:
+Once you have tested the pipeline using visualize you can start updating the actual pipeline by synthesizing your resources using LPT's tasks:
 
 ```
-brazil-build synthesize
+PRESTO_PIPELINE_TYPE=<PIPELINE_NAME> brazil-build synthesize
 ```
+where **PIPELINE_NAME** is `presto-code-deploy` OR `presto-mainline`
 
 This will begin an interactive prompt requiring confirmation of resource creation.
 
