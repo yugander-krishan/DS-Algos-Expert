@@ -25,14 +25,13 @@ brazil ws --use --versionSet PrestoSpiderPorkServer/lpt
 ```
 
 ## How do I create my template's resources?
-Once you have a workspace set up with this package, you should first visualize your pipeline using:
+Once you have a workspace set up with this package, you should first [visualize](https://w.amazon.com/bin/view/LPTVisualize)  your pipeline without updating the actual pipeline using:
 
 ```
 PRESTO_PIPELINE_TYPE=<PIPELINE_NAME> brazil-build visualize
 ```
 where **PIPELINE_NAME** is `presto-code-deploy` OR `presto-mainline`
 
-[visualize](https://w.amazon.com/bin/view/LPTVisualize) is used for testing before updating the actual pipeline.
 
 Once you have tested the pipeline using visualize you can start updating the actual pipeline by synthesizing your resources using LPT's tasks:
 
