@@ -32,7 +32,7 @@ PRESTO_PIPELINE_TYPE=<PIPELINE_NAME> brazil-build visualize
 ```
 where **PIPELINE_NAME** is `presto-code-deploy` OR `presto-mainline`
 
-visualize is used for testing before updating the actual pipeline. Read more about it [here](https://w.amazon.com/bin/view/LPTVisualize)
+[visualize](https://w.amazon.com/bin/view/LPTVisualize) is used for testing before updating the actual pipeline.
 
 Once you have tested the pipeline using visualize you can start updating the actual pipeline by synthesizing your resources using LPT's tasks:
 
